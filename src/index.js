@@ -16,9 +16,9 @@ const prepareAndStartServer=()=>{
     app.listen(PORT,async()=>{
         console.log(`Server started on Port: ${PORT}`);
        
-        const service = new UserService();
-        const newToken = service.createToken({email:'rk9763981@gmail.com',id:2});
-        console.log("new token is ",newToken)
+        // const service = new UserService();
+        // const newToken = service.createToken({email:'rk9763981@gmail.com',id:2});
+        // console.log("new token is ",newToken)
 
     })
 }
